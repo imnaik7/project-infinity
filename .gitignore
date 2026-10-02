@@ -1,0 +1,20 @@
+# Dependencies & build output
+node_modules/
+dist/
+dist-ssr/
+build-web/
+*.tsbuildinfo
+
+# Local tooling / caches (not source)
+.claude/
+.flowagent/
+.playwright-mcp/
+.expo/
+**/.resolved-environment.json
+*.log
+
+# Secrets / local overrides
+.env
+.env*.local
+*.local
+wrap.config.json
