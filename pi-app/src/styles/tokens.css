@@ -1,0 +1,52 @@
+/* Power Platform AI Solution — design tokens. Theme-dependent values switch on [data-theme]. */
+:root {
+  --brand: #7c3aed;
+  --brand-2: #6366f1;
+  --brand-3: #22d3ee;
+  --grad-brand: linear-gradient(135deg, #7c3aed 0%, #6366f1 55%, #22d3ee 100%);
+  --grad-soft: linear-gradient(135deg, rgba(124, 58, 237, 0.18), rgba(99, 102, 241, 0.12) 55%, rgba(34, 211, 238, 0.1));
+  --radius-sm: 8px;
+  --radius: 14px;
+  --radius-lg: 20px;
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --sidebar-w: 248px;
+  --sidebar-w-collapsed: 72px;
+  --topbar-h: 60px;
+
+  --ok: #22c55e;
+  --warn: #f59e0b;
+  --bad: #ef4444;
+  --info: #6366f1;
+}
+
+[data-theme='dark'] {
+  --canvas: #0b0d17;
+  --glass: rgba(22, 24, 41, 0.62);
+  --glass-strong: rgba(26, 28, 48, 0.86);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-highlight: inset 0 1px 0 rgba(255, 255, 255, 0.06);
+  --text: #eef0fb;
+  --text-2: #c7cbe0;
+  --muted: #8e93b0;
+  --hover: rgba(255, 255, 255, 0.05);
+  --track: rgba(255, 255, 255, 0.07);
+  --shadow: 0 10px 40px rgba(0, 0, 0, 0.45);
+  --shadow-hover: 0 18px 60px rgba(124, 58, 237, 0.28);
+  --aura-opacity: 1;
+}
+
+[data-theme='light'] {
+  --canvas: #f4f5fb;
+  --glass: rgba(255, 255, 255, 0.72);
+  --glass-strong: rgba(255, 255, 255, 0.92);
+  --glass-border: rgba(15, 23, 42, 0.08);
+  --glass-highlight: inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  --text: #0f172a;
+  --text-2: #334155;
+  --muted: #64748b;
+  --hover: rgba(15, 23, 42, 0.04);
+  --track: rgba(15, 23, 42, 0.07);
+  --shadow: 0 8px 30px rgba(15, 23, 42, 0.08);
+  --shadow-hover: 0 16px 48px rgba(124, 58, 237, 0.18);
+  --aura-opacity: 0.55;
+}

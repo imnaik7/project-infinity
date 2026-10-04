@@ -21,3 +21,4 @@ wrap.config.json
 
 # Recorded product tours
 demo-video/
+.playwright-mcp/

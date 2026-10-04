@@ -1,0 +1,126 @@
+{
+  "version": "1.0",
+  "appId": "62cbfdc5-cb3c-4a94-aea6-d3c306bb9166",
+  "appDisplayName": "Project Infinity",
+  "region": "prod",
+  "appType": "CodeApp",
+  "environmentId": "7a5c7438-a0d8-ebc0-9b61-ad57aa550f0a",
+  "description": " ",
+  "buildPath": "./dist",
+  "buildEntryPoint": "index.html",
+  "localAppUrl": "http://localhost:3000",
+  "logoPath": "Default",
+  "connectionReferences": {},
+  "databaseReferences": {
+    "default.cds": {
+      "dataSources": {
+        "clients": {
+          "entitySetName": "pin_clients",
+          "logicalName": "pin_client",
+          "isHidden": false
+        },
+        "roles": {
+          "entitySetName": "pin_roles",
+          "logicalName": "pin_role",
+          "isHidden": false
+        },
+        "resources": {
+          "entitySetName": "pin_resources",
+          "logicalName": "pin_resource",
+          "isHidden": false
+        },
+        "projects": {
+          "entitySetName": "pin_projects",
+          "logicalName": "pin_project",
+          "isHidden": false
+        },
+        "projectrates": {
+          "entitySetName": "pin_projectrates",
+          "logicalName": "pin_projectrate",
+          "isHidden": false
+        },
+        "projectmembers": {
+          "entitySetName": "pin_members",
+          "logicalName": "pin_member",
+          "isHidden": false
+        },
+        "milestones": {
+          "entitySetName": "pin_milestones",
+          "logicalName": "pin_milestone",
+          "isHidden": false
+        },
+        "tasks": {
+          "entitySetName": "pin_tasks",
+          "logicalName": "pin_task",
+          "isHidden": false
+        },
+        "timesheets": {
+          "entitySetName": "pin_timesheets",
+          "logicalName": "pin_timesheet",
+          "isHidden": false
+        },
+        "timeentries": {
+          "entitySetName": "pin_timeentries",
+          "logicalName": "pin_timeentry",
+          "isHidden": false
+        },
+        "approvals": {
+          "entitySetName": "pin_approvals",
+          "logicalName": "pin_approval",
+          "isHidden": false
+        },
+        "invoices": {
+          "entitySetName": "pin_invoices",
+          "logicalName": "pin_invoice",
+          "isHidden": false
+        },
+        "invoicelines": {
+          "entitySetName": "pin_invoicelines",
+          "logicalName": "pin_invoiceline",
+          "isHidden": false
+        },
+        "revenueentries": {
+          "entitySetName": "pin_revenues",
+          "logicalName": "pin_revenue",
+          "isHidden": false
+        },
+        "projectactivities": {
+          "entitySetName": "pin_activities",
+          "logicalName": "pin_activity",
+          "isHidden": false
+        },
+        "talentrequests": {
+          "entitySetName": "pin_resourcerequests",
+          "logicalName": "pin_resourcerequest",
+          "isHidden": false
+        },
+        "holidays": {
+          "entitySetName": "pin_holidaies",
+          "logicalName": "pin_holiday",
+          "isHidden": false
+        },
+        "leavetypes": {
+          "entitySetName": "pin_leavetypes",
+          "logicalName": "pin_leavetype",
+          "isHidden": false
+        },
+        "leavebalances": {
+          "entitySetName": "pin_leavebalances",
+          "logicalName": "pin_leavebalance",
+          "isHidden": false
+        },
+        "leaverequests": {
+          "entitySetName": "pin_leaverequests",
+          "logicalName": "pin_leaverequest",
+          "isHidden": false
+        },
+        "currencies": {
+          "entitySetName": "transactioncurrencies",
+          "logicalName": "transactioncurrency",
+          "isHidden": false
+        }
+      },
+      "environmentVariableName": ""
+    }
+  }
+}
