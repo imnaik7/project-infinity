@@ -1,0 +1,76 @@
+{
+  "voice": "en-US-AndrewNeural",
+  "rate": "+0%",
+  "scenes": [
+    {
+      "id": "intro",
+      "caption": "",
+      "text": "Hi everyone, and welcome to my channel, Navaneet Naik Power Platform Developer. Today, meet Project Infinity: one platform that runs a services business, from the first project request all the way to revenue."
+    },
+    {
+      "id": "home",
+      "caption": "Your day at a glance",
+      "text": "Every morning starts here. Your week at a glance: hours logged, tasks due, and approvals waiting. Plus portfolio health, and six months of revenue, recognised versus billed."
+    },
+    {
+      "id": "projects",
+      "caption": "The portfolio",
+      "text": "The portfolio shows every project you're part of, as cards, a board, or a table. Progress and budget burn are always visible, and health flags tell you where to look first."
+    },
+    {
+      "id": "wizard",
+      "caption": "Request a project in a minute",
+      "text": "Starting a project takes a minute. Pick the client and the billing model, time and materials, fixed price, retainer, or internal. Set the budget, choose a sponsor, and submit. The sponsor approves right here, or straight from Teams and Outlook."
+    },
+    {
+      "id": "overview",
+      "caption": "Inside a project",
+      "text": "Inside a project, the overview compares progress with the calendar, tracks hours against budget, and shows revenue, margin, and milestones."
+    },
+    {
+      "id": "team",
+      "caption": "Staff by role",
+      "text": "The project manager builds the team by role. Skill matching and free capacity help pick the right people. Role changes are effective-dated, so billing history never changes. And if nobody on the bench fits, request talent from R-M-G."
+    },
+    {
+      "id": "tasks",
+      "caption": "Live Kanban board",
+      "text": "Work moves across a live Kanban board. Drag a card to update it. Contributors can only move their own tasks."
+    },
+    {
+      "id": "timesheet",
+      "caption": "Timesheets that fill themselves",
+      "text": "Timesheets fill themselves with holidays and approved leave. Copy last week, adjust, and submit. Every entry is validated, and its role and rate are locked in for billing."
+    },
+    {
+      "id": "leave",
+      "caption": "Leave & team calendar",
+      "text": "Leave balances update automatically. Even long leave, like maternity, fills the right weeks and approves them, no timesheets needed."
+    },
+    {
+      "id": "approvals",
+      "caption": "One approval inbox",
+      "text": "Managers approve timesheets, leave, and projects from one inbox, with the full detail in front of them."
+    },
+    {
+      "id": "billing",
+      "caption": "Billing & revenue",
+      "text": "Approved time becomes recognised revenue. Invoices group hours by role and rate, apply the client's tax and currency, and can never bill the same work twice."
+    },
+    {
+      "id": "talent",
+      "caption": "Talent from RMG",
+      "text": "Resource managers match requests against the bench, assign people internally, or hand off to the Onboarding system to hire."
+    },
+    {
+      "id": "people",
+      "caption": "Capacity at a glance",
+      "text": "And the capacity heatmap shows who's free, who's busy, and who's over-allocated."
+    },
+    {
+      "id": "outro",
+      "caption": "",
+      "text": "That's Project Infinity. Projects, people, time, and revenue, in one place, built with Power Apps, Dataverse, and Power Automate. If you enjoyed this, subscribe to my channel, Navaneet Naik Power Platform Developer, for more builds like this."
+    }
+  ]
+}

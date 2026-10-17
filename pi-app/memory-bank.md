@@ -4,7 +4,7 @@
 - Code app: `Flows/pi-app` (React + Vite + Fluent v9 + motion + dnd-kit), display name "Project Infinity"
 - Environment: Dev_USA `7a5c7438-a0d8-ebc0-9b61-ad57aa550f0a`; solution **ProjectInfinity** (publisher `pin`, option prefix 54320)
 - Plan: `~/.claude/plans/hidden-growing-wozniak.md`
-- Not deployed yet — deploy with `npx --no-install pa app push -s <ProjectInfinity solution id>` **after user confirmation**
+- Deployed 2026-10-04 into ProjectInfinity (fba58828-e1bf-f111-a05a-00224832c67c): https://apps.powerapps.com/play/e/7a5c7438-a0d8-ebc0-9b61-ad57aa550f0a/app/62cbfdc5-cb3c-4a94-aea6-d3c306bb9166 (add &hideNavBar=true to hide the player header). Pushed to GitHub (4736061)
 
 ## Backend (live in Dev_USA)
 - `pi-dataverse/foundation.mjs` publisher/solution/currencies (INR base + USD, EUR) + access team template "Project Infinity Team"

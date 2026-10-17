@@ -1,0 +1,11 @@
+import { chromium } from 'playwright';
+const b = await chromium.launch({ channel: 'msedge', headless: true });
+const p = await b.newPage({ viewport: { width: 1920, height: 1080 } });
+const errs = [];
+p.on('console', (m) => m.type() === 'error' && errs.push(m.text()));
+p.on('pageerror', (e) => errs.push(String(e)));
+await p.goto('http://localhost:5185/', { waitUntil: 'load' });
+await p.waitForTimeout(3500);
+await p.screenshot({ path: 'check-home.png' });
+console.log('errors:', errs.slice(0, 5));
+await b.close();
