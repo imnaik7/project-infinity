@@ -22,3 +22,19 @@ wrap.config.json
 # Recorded product tours
 demo-video/
 .playwright-mcp/
+
+# AI Workforce: sign-in sessions, generated media and build output (never commit)
+**/.auth/
+aiw-video/demo-dist/
+**/voice/
+*.mp4
+*.webm
+*.wav
+*.mp3
+aiw-video/*.png
+!aiw-video/watermark.png
+aiw-video/tutorial/*.png
+!aiw-video/tutorial/watermark.png
+aiw-video/durations.json
+**/tests/results/
+**/test-results/
