@@ -1,7 +1,7 @@
 // Project Infinity foundation: publisher (prefix pin), solution ProjectInfinity, and the extra transaction
 // currencies (org base currency is INR). Idempotent.
 // Usage: az login && node pi-dataverse/foundation.mjs
-import { api, log } from '../retail-dataverse/lib.mjs';
+import { api, log } from './lib.mjs';
 
 const get = async (path) => (await api('GET', path, undefined, { solution: null })).value;
 

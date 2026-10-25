@@ -38,3 +38,6 @@ aiw-video/tutorial/*.png
 aiw-video/durations.json
 **/tests/results/
 **/test-results/
+
+# Plug-in strong-name keys stay local (create your own with sn -k)
+*.snk
